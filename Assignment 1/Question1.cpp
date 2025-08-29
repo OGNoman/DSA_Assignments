@@ -49,7 +49,7 @@ int main()
     cin >> val;
     for (int i = n; i >= pos; i--)
       arr[i] = arr[i - 1];
-    arr[pos - 1] = val;
+    arr[pos] = val;
     n++;
     cout << "Element inserted.\n";
     break;
